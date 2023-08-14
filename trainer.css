@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    
+}
+body {
+	background-image: url(trainerlogin.jpg);
+	overflow: hidden;
+    display: flex;
+	background-size: cover;
+    justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+form {
+    background-color: #3329294f;
+    color: #f7f3f3;
+    align-items: center;
+    margin: 50px auto;
+    width: 300px;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px #f7f3f3;
+}
+h2 {
+    text-align: center;
+    color: #f4ec06;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px #0a0a0a;
+}
+input[type="submit"] {
+    background-color: #3a3a3a;
+    color: #fdfafa;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #f51010;
+}
+.form.label{
+    color: #f7f3f3;
+}
+
+
